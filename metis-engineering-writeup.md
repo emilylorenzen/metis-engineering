@@ -44,10 +44,13 @@ I adjusted many different parameters in an attempt to train a CNN on the trainin
 
 Therefore, I looked into basic features of the sample images to gain insight into how the images look different between mechanism of action. I first investigated the sum of the intesity of each channel for three different mechanisms of action and plotted histograms for each channel where all three MoAs are displayed in different colors. 
 
-Similarly, I found for the average intensity.
+![](channel_comparison1-5.png)
 
+Similarly, I calculated the average intensity in each channel for three MoA's and plotted the distribution as a violin graph 
 
-I also created an app to engage citizen scientists and use human intelligence to help inform my further attempts at using artificial intelligence for this project. In the app, a user selects a mechanism of action and the app return the six channels compromising an image with that MoA and a negative control image for comparison. I then ask that the user report which channels they believe are the most different between the two treatment types. 
+![](channel_comparison2-5.png)
+
+Finally, I created an app to engage citizen scientists and use human intelligence to help inform my further attempts at using artificial intelligence for this project. In the app, a user selects a mechanism of action and the app return the six channels compromising an image with that MoA and a negative control image for comparison. I then ask that the user report which channels they believe are the most different between the two treatment types. 
 
 ## Communication
 

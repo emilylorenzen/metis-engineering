@@ -6,7 +6,7 @@ from mpl_toolkits.axes_grid1 import ImageGrid
 
 image_MoA = pd.read_csv('/Users/emilylorenzen/GitStuff/metis-engineering/image_MoA.csv')
 
-st.title('Help train AI to see what a drug does!')
+st.title('Help me help the AI to see what a drug does!')
 st.markdown(' ## Analysis of cells imaged treatment with immunological agents')
 st.markdown(' ### Can you see how cells treated with drugs that target different protein classes react?')
 
